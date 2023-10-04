@@ -80,7 +80,7 @@ body {
 /** ==========HEADER=========*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  background-color: #fff;
+  padding: 24px 0;
 }
 .header-container {
   display: flex;
@@ -88,8 +88,8 @@ body {
 }
 .header-nav {
   display: flex;
-  flex-grow: 1;
   align-items: center;
+  margin-right: auto;
 }
 .header-logo {
   margin-right: 76px;
@@ -140,10 +140,6 @@ body {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-}
-.hero-container {
-  padding-bottom: 68px;
-  padding-top: 68px;
 }
 .hero-title {
   max-width: 496px;
